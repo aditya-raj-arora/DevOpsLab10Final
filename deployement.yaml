@@ -43,4 +43,4 @@ spec:
   ports:
     - port: 80                         
       targetPort: 80                   
-      nodePort: 30100                   # browser: http://localhost:30085  (30000-32767, unused)
+      nodePort: 30100                   

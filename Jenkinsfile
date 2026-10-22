@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/aditya-raj-arora/DevOpsLab10.git'
+                git branch: 'main', url: 'https://github.com/aditya-raj-arora/DevOpsLab10Final.git'
             }
         }
 
