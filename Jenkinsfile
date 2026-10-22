@@ -13,7 +13,7 @@ pipeline {
     }
 
     parameters {
-        booleanParam(name: 'ROLLBACK', defaultValue: false, description: 'Run the extra test suite')
+        booleanParam(name: 'ROLLBACK', defaultValue: true, description: 'Run the extra test suite')
     }
 
     stages {
